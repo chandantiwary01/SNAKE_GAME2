@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Advanced Snake Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1>🐍 Snake Evolution</h1>
+  <div class="controls">
+    <button id="startBtn">Start</button>
+    <button id="pauseBtn">Pause</button>
+    <button id="restartBtn">Restart</button>
+  </div>
+  <div class="score-panel">Score: <span id="score">0</span></div>
+  <canvas id="gameCanvas" width="600" height="600"></canvas>
+
+  <audio id="eatSound" src="eat.mp3"></audio>
+  <audio id="gameOverSound" src="gameover.mp3"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
